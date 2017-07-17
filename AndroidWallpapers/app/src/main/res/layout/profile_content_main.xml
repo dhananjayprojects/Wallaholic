@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/ScrollView01"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#ECEFF1"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.imagineappdev.wallaholic.ProfileActivity"
+    tools:showIn="@layout/profile_app_bar_main">
+<RelativeLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+    <RelativeLayout
+        android:id="@+id/layoutTop"
+        android:layout_width="match_parent"
+        android:background="@drawable/bg"
+        android:layout_height="150dp" >
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/layoutBottom"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="60dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_alignParentBottom="true"
+        android:layout_below="@id/layoutTop" >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            >
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:padding="10dp"
+                android:layout_height="wrap_content">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/user_name"
+                        android:textColor="#212121"
+                        android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+                        android:padding="15dp"
+                        android:text="Name"/>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+
+                        android:gravity="right"
+                        android:id="@+id/user_nm"
+                        android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+                        android:padding="15dp"
+                        android:text="Dhananjay Kumar"/>
+                </LinearLayout>
+
+            </android.support.v7.widget.CardView>
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:padding="10dp"
+                android:layout_height="wrap_content">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/user_email"
+                    android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+                    android:padding="15dp"
+                    android:textColor="#212121"
+                    android:text="Email"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="right"
+                    android:id="@+id/user_mail"
+                    android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+                    android:padding="15dp"
+                    android:text="Dhananjaysingh@gmail.com"/>
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:padding="10dp"
+                android:id="@+id/rate"
+                android:foreground="?android:attr/selectableItemBackground"
+                android:clickable="true"
+                android:layout_height="wrap_content">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+                        android:padding="15dp"
+                        android:textColor="#212121"
+                        android:text="Rate the App"/>
+
+                    <ImageView
+                        android:layout_marginLeft="80dp"
+                    android:layout_width="30dp"
+                    android:layout_height="match_parent"
+                        android:gravity="right"
+                    android:src="@drawable/ic_star_rate_black_18dp"/>
+                    <ImageView
+                        android:layout_width="30dp"
+                        android:layout_height="match_parent"
+                        android:gravity="right"
+                        android:src="@drawable/ic_star_rate_black_18dp"/>
+                    <ImageView
+                        android:layout_width="30dp"
+                        android:layout_height="match_parent"
+                        android:gravity="right"
+                        android:src="@drawable/ic_star_rate_black_18dp"/>
+                    <ImageView
+                        android:layout_width="30dp"
+                        android:layout_height="match_parent"
+                        android:gravity="right"
+                        android:src="@drawable/ic_star_rate_black_18dp"/>
+                    <ImageView
+                        android:layout_width="30dp"
+                        android:layout_height="match_parent"
+                        android:gravity="right"
+                        android:src="@drawable/ic_star_rate_black_18dp"/>
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+
+            <Button
+                android:layout_width="match_parent"
+                android:background="@color/colorPrimary"
+                android:id="@+id/sign_out_button"
+                android:textColor="#eeeeee"
+
+                android:layout_marginTop="30dp"
+                android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+                android:text="Sign Out"
+                android:layout_marginBottom="10dp"
+                android:layout_height="wrap_content" />
+
+        </LinearLayout>
+
+
+    </RelativeLayout>
+
+    <ImageView
+        android:id="@+id/overlapImage"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_above="@id/layoutBottom"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="-50dp"
+    android:adjustViewBounds="true"
+    android:src="@drawable/ic_account_circle_white_36dp" />
+
+
+</RelativeLayout>
+</ScrollView>

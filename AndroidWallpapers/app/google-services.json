@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "1013223593904",
+    "firebase_url": "https://wallaholic-fba1d.firebaseio.com",
+    "project_id": "wallaholic-fba1d",
+    "storage_bucket": "wallaholic-fba1d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1013223593904:android:8da5f6c93d9d8344",
+        "android_client_info": {
+          "package_name": "com.imagineappdev.wallaholic"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1013223593904-7rk5pk96cqh95q16hqdmr5tu03hqpt6v.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.imagineappdev.wallaholic",
+            "certificate_hash": "244fba603a62879aa03beb23c07a6bacfabcc738"
+          }
+        },
+        {
+          "client_id": "1013223593904-1n2220qe4pai0kl1vmredles9ucltvad.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCxkYACeZYb8D2lcFcXDkAYs2OImF8K5oE"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1013223593904-1n2220qe4pai0kl1vmredles9ucltvad.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

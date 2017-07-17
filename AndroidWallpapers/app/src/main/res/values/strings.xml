@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">Wallaholic</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="title_activity_xyz">xyz</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="set_wallpaper">wallpaper</string>
+    <string name="download_wallpaper">Download</string>
+    <string name="share_wallpaper">Share</string>
+    <string name="fav_wallpaper">Favourite</string>
+    <string name="app_intro">App Intro</string>
+    <string name="facebook_application_id" translatable="false">216264668877124</string>
+    <!-- Facebook Application ID, prefixed by 'fb'.  Enables Chrome Custom tabs. -->
+    <string name="facebook_login_protocol_scheme" translatable="false">fb216264668877124</string>
+
+    <string name="twitter_consumer_key" translatable="false">mVVt9CNfADYbyGgUXeJ2IPMCW</string>
+    <string name="twitter_consumer_secret" translatable="false">Ejrju2aG8locDrZa02arPG12Z1VnavnE9h6y0uVMpoBD2RlRT7</string>
+    <string name="drawer_item_settings">Settings</string>
+    <string name="drawer_item_profile">Profile</string>
+    <string name="drawer_item_upgrade">Upgrade</string>
+    <string name="drawer_item_rate">Rate the App</string>
+    <string name="drawer_item_more_apps">More Apps</string>
+    <string name="drawer_item_invite_friend">Invite Friends</string>
+    <string name="drawer_item_send_feedback">Send Feedback</string>
+    <string name="drawer_item_favourites">Favourites</string>
+    <string name="drawer_item_dark_mode">Dark Mode</string>
+    <string name="tutorial">Tutorial</string>
+    <string name="preference_file_key">MyPrefs</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="search_title">Search</string>
+    <string name="search_hint">search</string>
+</resources>
